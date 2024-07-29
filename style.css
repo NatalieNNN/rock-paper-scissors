@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    height: 100%;
+    background-image: url("https://img.freepik.com/premium-photo/colorful-illustration-paris-2024-olympic-celebrations_34168-4179.jpg?w=1060");
+    background-size: 110%;
+    font-family: 'Amatic SC';
+}
+
+/* Other ink ref
+https://www.hollywoodreporter.com/wp-content/uploads/2023/05/PARIS24-NBCU-NETWORKS-H-2023.jpg?w=1296&h=730&crop=1
+*/
+
+h1{
+    font-size: 80px;
+    margin:0;
+}
+
+h2,p{
+    font-size:50px;
+    margin:0;
+}
+
+#bg{
+    background-color: #e9f2ce;
+    width:80%;
+    height:100%;
+    align-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border-color: beige;
+    border: 20px;
+    margin:50px auto;
+    opacity: 90%;
+    
+}
+
+button {
+    font-size: 150px;
+    border-radius: 10px;
+    border-color: white;
+    margin: 10px;
+    border: 20px;
+}
+
+button:hover {
+    background-color: #76c377; 
+    color: white;
+}
+
+button:focus{
+    background-color: rgb(180, 175, 175);
+}
+
+#result, #computer {
+    font-size: 50px;
+    margin:0;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; 
+}
